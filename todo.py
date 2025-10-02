@@ -29,5 +29,6 @@ while selection != "4":
         item_to_be_removed = input("Which item do you want to remove?")
         to_do_list.pop(int(item_to_be_removed) - 1)
         input("Item removed. Press enter to continue...")
-        
-#add for entries outside of 1-4 so an error/print 'selection out of range'
+
+# next steps: add for entries outside of 1-4 so an error/print 'selection out of range'
+# make append changes permit?
